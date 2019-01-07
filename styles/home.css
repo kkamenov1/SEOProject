@@ -1,0 +1,61 @@
+.home .heading {
+  margin-top: 40px;
+}
+
+.home img {
+  max-height: 900px;
+}
+
+.separator {
+  display: block;
+  position: relative;
+}
+.separator span:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50px;
+  background-color: red;
+}
+
+.carousel-site-name {
+  margin-top: 20px;
+}
+
+.home .choose-us {
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: #757575;
+}
+
+.home .choose-us h3 {
+  color: #e0e0e0;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.home .choose-us h3:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  top: 100%;
+  left: 0;
+  transform: translate(0, 0);
+  width: 100px;
+  background-color: red;
+}
+
+.home .choose-us ul {
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  padding-top: 15px;
+  max-width: 375px;
+}
+
+.home .choose-us ul li {
+  color: #f2f2f2;
+  padding-bottom: 15px;
+}
