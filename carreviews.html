@@ -1,56 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106271828-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106271828-2');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>The coolest car blog ever</title>
+
+  <meta name="title" content="Carreviews Bulgaria - Car Reviews">
+  <meta name="description" content="List of all car brands on the site.">
+  <meta name="keywords" content="car brands, cars, bmw, brands, list cars, all brand, all reviews, reviews, all">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+
+  <meta property="og:title" content="Carreviews Bulgaria - Car Reviews">
+  <meta property="og:site_name" content="carreviews-bulgaria">
+  <meta property="og:url" content="https://carreviews-bulgaria.000webhostapp.com/carreviews.html">
+  <meta property="og:description" content="List of all car brands on the site.">
+  <meta property="og:type" content="website">
+  <meta property="fb:app_id" content="359652454868941">
+  <meta property="og:image" content="https://carreviews-bulgaria.000webhostapp.com/images/bmw_850i_conclusion.jpg">
+
+  <title>Carreviews Bulgaria - Car Reviews</title>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/carreviews.css">
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
+  <script src="scripts/docReady.js"></script>
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="home.html">CAR BLOG</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="carreviews.html">Car Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="userconsent.html">User Consent</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-            The coolest car blog ever made!
-          </span>
-        </div>
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html" title="Home Page">CAR BLOG</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="nav navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html" title="Home Page">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" title="Car Reviews" href="carreviews.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Car Reviews
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="bmwreviews.html" title="BMW Reviews">BMW</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html" title="About Us">About Us</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <a href="https://www.youtube.com" title="YouTube" taget="_blank" style="text-decoration: none">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                The coolest car blog ever made!</a>
+            </span>
+          </div>
+        </nav>
   </header>
   <main class="carreviews">
     <div class="carreviews_inner">
-        <h1>NEWS FEED</h1>
-        <div class="card">
-          <img class="card-img-top" src="images/850i.jpg" alt="BMW 850i review">
-          <div class="card-body">
-            <h5 class="card-title">New BMW 8 Series 2019 review</h5>
-            <p class="card-text">Today we are going to jump in the brand new BMW 8 series in the 850i disguise...</p>
-            <a href="bmwreview.html" class="btn btn-primary">Read More...</a>
-          </div>
-        </div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html" title="Home Page">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Car Reviews</li>
+          </ol>
+        </nav>
+        <h1>CAR REVIEWS</h1>
+        <a href="bmwreviews.html" class="icon-link" title="BMW Reviews">
+          <span class="icon-display">BMW</span>
+          <img src="images/bmw_icon.png" alt="BMW Logo" />
+        </a>
     </div>
   </main>
   <footer id="sitefooter">

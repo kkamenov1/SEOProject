@@ -1,0 +1,53 @@
+.aboutus {
+  background-color: #757575;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+@media (max-width: 960px) {
+  .aboutus {
+    padding: 0 15px 80px 15px;
+  }
+}
+
+.aboutus_inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.aboutus_inner h1 {
+  margin-bottom: 0;
+  position: relative;
+  padding-bottom: 15px;
+  color: #e0e0e0;
+}
+
+.aboutus_inner h1:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  top: 100%;
+  left: 0;
+  transform: translate(0, 0);
+  width: 100%;
+  background-color: red;
+}
+
+.aboutus_inner ul {
+  padding-top: 40px;
+  color: #e0e0e0;
+}
+
+.aboutus_inner ul li {
+  padding-bottom: 10px;
+}
+
+.aboutus_inner ul li .red {
+  color: red;
+  font-weight: 700;
+}
+
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }

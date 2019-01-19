@@ -1,0 +1,20 @@
+.review {
+  background-color: #757575;
+  padding: 40px 0;
+}
+
+@media (max-width: 960px) {
+  .review {
+    padding: 40px 15px 80px 15px;
+  }
+}
+
+.review_inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.review_inner h2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
