@@ -9,32 +9,42 @@
 
 <url>
   <loc>https://carreviews-bulgaria.000webhostapp.com/index</loc>
-  <lastmod>2019-01-20T00:21:17+00:00</lastmod>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://carreviews-bulgaria.000webhostapp.com/carreviews</loc>
-  <lastmod>2019-01-20T00:21:17+00:00</lastmod>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://carreviews-bulgaria.000webhostapp.com/bmwreviews</loc>
-  <lastmod>2019-01-20T00:21:17+00:00</lastmod>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://carreviews-bulgaria.000webhostapp.com/aboutus</loc>
-  <lastmod>2019-01-20T00:21:17+00:00</lastmod>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://carreviews-bulgaria.000webhostapp.com/policy</loc>
-  <lastmod>2019-01-20T00:21:17+00:00</lastmod>
+  <loc>https://carreviews-bulgaria.000webhostapp.com/cookie-policy</loc>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://carreviews-bulgaria.000webhostapp.com/privacy-policy</loc>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://carreviews-bulgaria.000webhostapp.com/terms-and-conditions</loc>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://carreviews-bulgaria.000webhostapp.com/bmwreview</loc>
-  <lastmod>2019-01-20T00:21:17+00:00</lastmod>
+  <lastmod>2019-01-20T14:41:21+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
