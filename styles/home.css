@@ -18,7 +18,7 @@
   left: 50%;
   transform: translate(-50%, 0);
   width: 50px;
-  background-color: red;
+  background-color: #900;
 }
 
 .carousel-site-name {
@@ -45,7 +45,7 @@
   left: 0;
   transform: translate(0, 0);
   width: 100px;
-  background-color: red;
+  background-color: #900;
 }
 
 .home .choose-us ul {

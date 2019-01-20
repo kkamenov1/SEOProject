@@ -30,7 +30,7 @@
   left: 0;
   transform: translate(0, 0);
   width: 100%;
-  background-color: red;
+  background-color: #900;
 }
 
 .aboutus_inner ul {
@@ -43,7 +43,7 @@
 }
 
 .aboutus_inner ul li .red {
-  color: red;
+  color: #900;
   font-weight: 700;
 }
 
